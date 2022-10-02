@@ -183,19 +183,9 @@ ratings.head()
 
 > Check the wiki_movies_df DataFrame. `wiki_movies_df.head()`
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/Movies-ETL/blob/main/Resources/images/1.4.1.PNG?raw=true)
-
-
 > Check the kaggle_metadata DataFrame. `kaggle_metadata.head()`
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/Movies-ETL/blob/main/Resources/images/1.4.2.PNG?raw=true)
-
-
 > Check the ratings DataFrame. `ratings.head()`
-
-![name-of-you-image](https://github.com/emmanuelmartinezs/Movies-ETL/blob/main/Resources/images/1.4.3.PNG?raw=true)
-
-
 
 ## Deliverable 2: Extract and Transform the Wikipedia Data
 ### Deliverable Requirements:

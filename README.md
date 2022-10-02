@@ -118,7 +118,6 @@ ratings_file = f'{file_dir}/ratings.csv'
 
 4. **All Code related to `ETL_function_test.ipynb` file.**
 
-> Image with `SQL`, `pgAdmin` , `QuickDBD` & `Python` Code below.
 
 **Code and Image**
 

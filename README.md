@@ -76,8 +76,6 @@ kaggle_file = f'{file_dir}/movies_metadata.csv'
 ratings_file = f'{file_dir}/ratings.csv'
 ````
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/Movies-ETL/blob/main/Resources/images/1.1.PNG?raw=true)
-
 2. **The function converts the Wikipedia JSON file to a Pandas DataFrame, and the DataFrame is displayed in the `ETL_function_test.ipynb file`.**
 
 > Image with `SQL`, `pgAdmin` , `QuickDBD` & `Python` Code below.

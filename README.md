@@ -411,15 +411,6 @@ wiki_movies_df.head()
 
 # 21. Check that wiki_movies_df DataFrame columns are correct. 
 wiki_movies_df.columns.to_list()
-````
-> Check that the wiki_movies_df DataFrame looks like this.
-
-![name-of-you-image](https://github.com/emmanuelmartinezs/Movies-ETL/blob/main/Resources/images/4.1.PNG?raw=true)
-
-> Check that wiki_movies_df DataFrame columns are correct. 
-
-![name-of-you-image](https://github.com/emmanuelmartinezs/Movies-ETL/blob/main/Resources/images/4.2.PNG?raw=true)
-
 
 
 ## Deliverable 3: Extract and Transform the Kaggle Data

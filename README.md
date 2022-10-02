@@ -64,7 +64,7 @@ from sqlalchemy import create_engine
 from config import db_password
 
 # Create the path to your file directory and variables for the three files. 
-file_dir = "C://Users/Emmanuel/Google Drive/Columbia University/GitHub/Movies-ETL/"
+file_dir = "C://Users/Google Drive/Columbia University/GitHub/Movies-ETL/"
 
 # Wikipedia data
 wiki_file = f'{file_dir}/wikipedia.movies.json'
@@ -154,7 +154,7 @@ def three_arguments_func():
     return wiki_movies_df, kaggle_metadata, ratings
 
 # 6. Create the path to your file directory and variables for the three files. 
-file_dir = "C://Users/Emmanuel/Google Drive/Columbia University/GitHub/Movies-ETL/"
+file_dir = "C://Users/Google Drive/Columbia University/GitHub/Movies-ETL/"
 
 # Wikipedia data
 wiki_file = f'{file_dir}/wikipedia.movies.json'
@@ -182,8 +182,6 @@ kaggle_metadata.head()
 # 11. Check the ratings DataFrame.
 ratings.head()
 
-#by Emmanuel Martinez
-````
 
 > Check the wiki_movies_df DataFrame. `wiki_movies_df.head()`
 
@@ -223,8 +221,6 @@ Using your knowledge of Python, Pandas, the ETL process, and code refactoring, e
 ### Results with detail analysis:
 
 1. **The TV shows are filtered out, and the `wiki_movies_df` DataFrame is created.**
-
-> Image with `SQL`, `pgAdmin` , `QuickDBD` & `Python` Code below.
 
 **Code and Image**
 
@@ -281,8 +277,6 @@ def clean_movie(movie):
         2. The budget column
         3. The release date column
         4. The running time column
-
-> Image with `SQL`, `pgAdmin` , `QuickDBD` & `Python` Code below.
 
 **Code and Image**
 
@@ -407,7 +401,7 @@ def three_arguments_func():
     return wiki_movies_df, kaggle_metadata, ratings
 
 # 17. Create the path to your file directory and variables for the three files.
-file_dir = "C://Users/Emmanuel/Google Drive/Columbia University/GitHub/Movies-ETL/" 
+file_dir = "C://Users/Google Drive/Columbia University/GitHub/Movies-ETL/" 
 # The Wikipedia data
 wiki_file = f'{file_dir}/wikipedia.movies.json'
 # The Kaggle metadata
@@ -430,8 +424,6 @@ wiki_movies_df = wiki_file
 
 
 4. **The cleaned Wikipedia data is converted to a Pandas DataFrame, and the DataFrame is displayed in the `ETL_clean_wiki_movies.ipynb` file.**
-
-> Image with `SQL`, `pgAdmin` , `QuickDBD` & `Python` Code below.
 
 **Code and Image**
 
@@ -483,8 +475,6 @@ Using your knowledge of Python, Pandas, the ETL process, and code refactoring, e
         3. The `movies_df` DataFrame is filtered to keep specific columns.
         4. The `movies_df` DataFrame columns are renamed.
 
-
-> Image with `SQL`, `pgAdmin` , `QuickDBD` & `Python` Code below.
 
 **Code and Image**
 
@@ -574,9 +564,6 @@ Using your knowledge of Python, Pandas, the ETL process, and code refactoring, e
     2. The `movies_df` DataFrame is merged with the cleaned ratings DataFrame to create the `movies_with_ratings_df` DataFrame.
     3. The empty values in the `movies_with_ratings_df` DataFrame are filled with “0”.
 
-
-> Image with `SQL`, `pgAdmin` , `QuickDBD` & `Python` Code below.
-
 **Code and Image**
 
 
@@ -606,14 +593,12 @@ Using your knowledge of Python, Pandas, the ETL process, and code refactoring, e
 
 3. ​**The `movies_with_ratings_df` and the `movies_df DataFrames` are displayed in the `ETL_clean_kaggle_data.ipynb` file.**
 
-> Image with `SQL`, `pgAdmin` , `QuickDBD` & `Python` Code below.
-
 **Code and Image**
 
 
 ````python
 # 10. Create the path to your file directory and variables for the three files.
-file_dir = "C://Users/Emmanuel/Google Drive/Columbia University/GitHub/Movies-ETL/"
+file_dir = "C://Users/Google Drive/Columbia University/GitHub/Movies-ETL/"
 # The Wikipedia data
 wiki_file = f'{file_dir}/wikipedia.movies.json'
 # The Kaggle metadata
@@ -666,8 +651,6 @@ Use your knowledge of Python, Pandas, the ETL process, code refactoring, and Pos
 ### Results with detail analysis:
 
 1. **The data from the `movies_df` DataFrame replaces the current data in the movies table in the SQL database, as determined by the `movies_query.png`.**
-
-> Image with `SQL`, `pgAdmin` , `QuickDBD` & `Python` Code below.
 
 **Code and Image**
 
@@ -727,8 +710,6 @@ FROM movies;
 
 2. **The data from the MovieLens rating CSV file is added to the `ratings` table in the SQL database, as determined by the `ratings_query.png`.**
 
-> Image with `SQL`, `pgAdmin` , `QuickDBD` & `Python` Code below.
-
 **Code and Image**
 
 ````SQL
@@ -748,8 +729,6 @@ FROM ratings;
 
 
 3. ​***​The elapsed time to add the data to the database is displayed in the `ETL_create_database.ipynb` file.**
-
-> Image with `SQL`, `pgAdmin` , `QuickDBD` & `Python` Code below.
 
 **Code and Image**
 

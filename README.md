@@ -399,13 +399,6 @@ wiki_file, kaggle_file, ratings_file = three_arguments_func()
 # 19. Set the wiki_movies_df equal to the wiki_file variable. 
 wiki_movies_df = wiki_file
 
-````
-
-![name-of-you-image](https://github.com/emmanuelmartinezs/Movies-ETL/blob/main/Resources/images/3.1.PNG?raw=true)
-![name-of-you-image](https://github.com/emmanuelmartinezs/Movies-ETL/blob/main/Resources/images/3.2.PNG?raw=true)
-![name-of-you-image](https://github.com/emmanuelmartinezs/Movies-ETL/blob/main/Resources/images/3.3.PNG?raw=true)
-
-
 
 4. **The cleaned Wikipedia data is converted to a Pandas DataFrame, and the DataFrame is displayed in the `ETL_clean_wiki_movies.ipynb` file.**
 

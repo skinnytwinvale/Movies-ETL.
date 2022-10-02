@@ -230,10 +230,6 @@ def clean_movie(movie):
         movie['alt_titles'] = alt_titles
 
     return movie 
-````
-
-![name-of-you-image](https://github.com/emmanuelmartinezs/Movies-ETL/blob/main/Resources/images/2.1.PNG?raw=true)
-
 
 
 2. **A `try-except` block is used to catch errors while extracting the IMDb IDs with a regular expression and dropping duplicate IDs.**
